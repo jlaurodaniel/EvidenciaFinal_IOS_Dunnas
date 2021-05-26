@@ -1,0 +1,18 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Dunnas' do
+
+  # Pods for Dunnas
+pod 'Firebase/Analytics'
+
+  target 'DunnasTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'DunnasUITests' do
+    # Pods for testing
+  end
+
+end
